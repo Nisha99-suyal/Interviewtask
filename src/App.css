@@ -1,0 +1,64 @@
+.cards-section {
+  margin: 20px !important;
+  padding: 0 !important;
+  width: 100%;
+  max-width: fit-content;
+}
+.col-lg-3 {
+  padding: 8px;
+}
+.card {
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 1px 2px 0 rgba(0, 2, 0, 0.05), 0 0 3px rgba(0, 0, 0, 0.05),
+    0 20px 25px -5px rgba(0, 0, 0, 0.04), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.card-img {
+  width: 50% !important;
+  border-radius: 50% !important;
+  margin: 0px auto;
+}
+
+.card-title {
+  margin: 16px 0 0 0 !important;
+  text-align: center;
+}
+
+.detail {
+  color: grey;
+  padding: 0;
+  margin: 6px 0 0 0;
+  gap: 0.5rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.button-section {
+  margin-top: 15px !important;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  width: 48%;
+}
+.unfollow {
+  background-color: transparent !important;
+  color: black !important;
+  border: 1px solid lightgrey !important;
+}
+.follow {
+  background-color: #228be6 !important;
+}
+.follow:hover {
+  background-color: #1c7ed6 !important;
+}
+.delete:hover {
+  color: #228be6 !important;
+  background-color: rgba(34, 139, 230, 0.05) !important;
+}
+.star {
+  vertical-align: baseline !important;
+}
