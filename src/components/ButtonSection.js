@@ -37,8 +37,8 @@ function ButtonSection({
         size="md"
         onClick={() => remove(item.id)}
       >
-        <IconTrash size={16} />
-        <span></span>
+       
+        <span> <IconTrash size={16} /></span>
         Delete
       </Button>
     </div>
